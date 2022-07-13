@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\dotnet4.rpg\\dotnet4.rpg.csproj": {}
+  },
+  "projects": {
+    "E:\\dotnet4.rpg\\dotnet4.rpg.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\dotnet4.rpg\\dotnet4.rpg.csproj",
+        "projectName": "dotnet4.rpg",
+        "projectPath": "E:\\dotnet4.rpg\\dotnet4.rpg.csproj",
+        "packagesPath": "C:\\Users\\Jemimah.s.IINTERCHANGE\\.nuget\\packages\\",
+        "outputPath": "E:\\dotnet4.rpg\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jemimah.s.IINTERCHANGE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
